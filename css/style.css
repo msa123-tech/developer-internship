@@ -1,0 +1,60 @@
+/* Simple clean UI - uses Poppins + system font stack only */
+body {
+    font-family: "Poppins", system-ui, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+}
+
+.page-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.app-card {
+    max-width: 420px;
+    width: 100%;
+    margin: 40px auto;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.page-center .app-card {
+    margin: 0 auto;
+}
+
+.app-card .card-header {
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+    font-weight: 600;
+}
+
+#registerForm .btn-primary,
+#loginForm .btn-primary,
+#profileForm .btn-primary {
+    width: 100%;
+}
+
+.alert-box {
+    display: none;
+    margin-top: 15px;
+}
+
+.profile-box p {
+    margin-bottom: 8px;
+}
+
+.profile-box strong {
+    display: inline-block;
+    width: 110px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-right: 12px;
+}
+

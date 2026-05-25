@@ -1,9 +1,9 @@
 <?php
 // MySQL connection settings
-define('DB_HOST', 'mongodb+srv://msa652285_db_user:<db_password>@arjun-0.5e3hoow.mongodb.net/');
+define('DB_HOST', 'localhost');
 define('DB_NAME', 'arjun_task_db');
-define('DB_USER', 'msa652285_db_user');
-define('DB_PASS', 'OaZCMHtBwEzbK7GP');
+define('DB_USER', 'root');
+define('DB_PASS', '');
 
 function getMysqlConnection()
 {

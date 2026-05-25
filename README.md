@@ -38,7 +38,7 @@ database.sql
 1. Start Apache and MySQL in XAMPP
 2. Import database.sql into phpMyAdmin
 3. Configure MongoDB and Redis
-4. Open localhost/project-folder
+4. Open http://localhost/arjun-task/ 
 
 ## GitHub Repository
 

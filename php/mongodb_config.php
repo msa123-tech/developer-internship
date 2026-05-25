@@ -1,6 +1,6 @@
 <?php
 // MongoDB for profile details (PHP extension or mongosh fallback)
-define('MONGO_URI', 'mongodb://127.0.0.1:27017');
+define('MONGO_URI', 'mongodb+srv://msa652285_db_user:0aZCMHtBwEzbK7GP@arjun-0.5e3hoow.mongodb.net/?retryWrites=true&w=majority');
 define('MONGO_DB', 'arjun_task_db');
 define('MONGO_COLLECTION', 'profiles');
 define('MONGOSH_BIN', '/opt/homebrew/bin/mongosh');
